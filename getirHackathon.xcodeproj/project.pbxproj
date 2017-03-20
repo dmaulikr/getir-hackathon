@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1F419B1E7FAE3800BD2F21 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1F419A1E7FAE3800BD2F21 /* AFNetworking.framework */; };
+		DC1F419E1E7FAF2700BD2F21 /* AFNetworking.framework in Resources */ = {isa = PBXBuildFile; fileRef = DC1F419A1E7FAE3800BD2F21 /* AFNetworking.framework */; };
+		DC1F41A01E7FB0A000BD2F21 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1F419F1E7FB0A000BD2F21 /* AFNetworking.framework */; };
+		DC1F41A11E7FB0A000BD2F21 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1F419F1E7FB0A000BD2F21 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC3A162C1E8069BF005E70B2 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3A162B1E8069BF005E70B2 /* ShapeViewController.m */; };
+		DC3D9FD51E7D41E400EF3339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3D9FD41E7D41E400EF3339 /* main.m */; };
+		DC3D9FD81E7D41E400EF3339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3D9FD71E7D41E400EF3339 /* AppDelegate.m */; };
+		DC3D9FDB1E7D41E400EF3339 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3D9FDA1E7D41E400EF3339 /* ViewController.m */; };
+		DC3D9FDE1E7D41E400EF3339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3D9FDC1E7D41E400EF3339 /* Main.storyboard */; };
+		DC3D9FE11E7D41E400EF3339 /* getirHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3D9FDF1E7D41E400EF3339 /* getirHackathon.xcdatamodeld */; };
+		DC3D9FE31E7D41E400EF3339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3D9FE21E7D41E400EF3339 /* Assets.xcassets */; };
+		DC3D9FE61E7D41E400EF3339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3D9FE41E7D41E400EF3339 /* LaunchScreen.storyboard */; };
+		DC3D9FF11E7D41E400EF3339 /* getirHackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3D9FF01E7D41E400EF3339 /* getirHackathonTests.m */; };
+		DC3D9FFC1E7D41E400EF3339 /* getirHackathonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3D9FFB1E7D41E400EF3339 /* getirHackathonUITests.m */; };
+		DC3DA00E1E7D41F800EF3339 /* BaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DA00A1E7D41F800EF3339 /* BaseClass.m */; };
+		DC3DA00F1E7D41F800EF3339 /* Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DA00D1E7D41F800EF3339 /* Elements.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC3D9FED1E7D41E400EF3339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3D9FC81E7D41E400EF3339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3D9FCF1E7D41E400EF3339;
+			remoteInfo = getirHackathon;
+		};
+		DC3D9FF81E7D41E400EF3339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3D9FC81E7D41E400EF3339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3D9FCF1E7D41E400EF3339;
+			remoteInfo = getirHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC1F41A21E7FB0A000BD2F21 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC1F41A11E7FB0A000BD2F21 /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC1F419A1E7FAE3800BD2F21 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		DC1F419F1E7FB0A000BD2F21 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		DC3A162A1E8069BF005E70B2 /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		DC3A162B1E8069BF005E70B2 /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		DC3D9FD01E7D41E400EF3339 /* getirHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getirHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3D9FD41E7D41E400EF3339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC3D9FD61E7D41E400EF3339 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC3D9FD71E7D41E400EF3339 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC3D9FD91E7D41E400EF3339 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC3D9FDA1E7D41E400EF3339 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC3D9FDD1E7D41E400EF3339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3D9FE01E7D41E400EF3339 /* getirHackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = getirHackathon.xcdatamodel; sourceTree = "<group>"; };
+		DC3D9FE21E7D41E400EF3339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3D9FE51E7D41E400EF3339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3D9FE71E7D41E400EF3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3D9FEC1E7D41E400EF3339 /* getirHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getirHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3D9FF01E7D41E400EF3339 /* getirHackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getirHackathonTests.m; sourceTree = "<group>"; };
+		DC3D9FF21E7D41E400EF3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3D9FF71E7D41E400EF3339 /* getirHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getirHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3D9FFB1E7D41E400EF3339 /* getirHackathonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getirHackathonUITests.m; sourceTree = "<group>"; };
+		DC3D9FFD1E7D41E400EF3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3DA0091E7D41F800EF3339 /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
+		DC3DA00A1E7D41F800EF3339 /* BaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseClass.m; sourceTree = "<group>"; };
+		DC3DA00B1E7D41F800EF3339 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		DC3DA00C1E7D41F800EF3339 /* Elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elements.h; sourceTree = "<group>"; };
+		DC3DA00D1E7D41F800EF3339 /* Elements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elements.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3D9FCD1E7D41E400EF3339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1F419B1E7FAE3800BD2F21 /* AFNetworking.framework in Frameworks */,
+				DC1F41A01E7FB0A000BD2F21 /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D9FE91E7D41E400EF3339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D9FF41E7D41E400EF3339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1F41991E7FAE3700BD2F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1F419F1E7FB0A000BD2F21 /* AFNetworking.framework */,
+				DC1F419A1E7FAE3800BD2F21 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3D9FC71E7D41E400EF3339 = {
+			isa = PBXGroup;
+			children = (
+				DC3D9FD21E7D41E400EF3339 /* getirHackathon */,
+				DC3D9FEF1E7D41E400EF3339 /* getirHackathonTests */,
+				DC3D9FFA1E7D41E400EF3339 /* getirHackathonUITests */,
+				DC3D9FD11E7D41E400EF3339 /* Products */,
+				DC1F41991E7FAE3700BD2F21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3D9FD11E7D41E400EF3339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D9FD01E7D41E400EF3339 /* getirHackathon.app */,
+				DC3D9FEC1E7D41E400EF3339 /* getirHackathonTests.xctest */,
+				DC3D9FF71E7D41E400EF3339 /* getirHackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3D9FD21E7D41E400EF3339 /* getirHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D9FD61E7D41E400EF3339 /* AppDelegate.h */,
+				DC3D9FD71E7D41E400EF3339 /* AppDelegate.m */,
+				DC3D9FD91E7D41E400EF3339 /* ViewController.h */,
+				DC3D9FDA1E7D41E400EF3339 /* ViewController.m */,
+				DC3A162A1E8069BF005E70B2 /* ShapeViewController.h */,
+				DC3A162B1E8069BF005E70B2 /* ShapeViewController.m */,
+				DC3DA0101E7D41FD00EF3339 /* Models */,
+				DC3D9FDC1E7D41E400EF3339 /* Main.storyboard */,
+				DC3D9FE21E7D41E400EF3339 /* Assets.xcassets */,
+				DC3D9FE41E7D41E400EF3339 /* LaunchScreen.storyboard */,
+				DC3D9FE71E7D41E400EF3339 /* Info.plist */,
+				DC3D9FDF1E7D41E400EF3339 /* getirHackathon.xcdatamodeld */,
+				DC3D9FD31E7D41E400EF3339 /* Supporting Files */,
+			);
+			path = getirHackathon;
+			sourceTree = "<group>";
+		};
+		DC3D9FD31E7D41E400EF3339 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D9FD41E7D41E400EF3339 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC3D9FEF1E7D41E400EF3339 /* getirHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D9FF01E7D41E400EF3339 /* getirHackathonTests.m */,
+				DC3D9FF21E7D41E400EF3339 /* Info.plist */,
+			);
+			path = getirHackathonTests;
+			sourceTree = "<group>";
+		};
+		DC3D9FFA1E7D41E400EF3339 /* getirHackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D9FFB1E7D41E400EF3339 /* getirHackathonUITests.m */,
+				DC3D9FFD1E7D41E400EF3339 /* Info.plist */,
+			);
+			path = getirHackathonUITests;
+			sourceTree = "<group>";
+		};
+		DC3DA0101E7D41FD00EF3339 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DA0091E7D41F800EF3339 /* BaseClass.h */,
+				DC3DA00A1E7D41F800EF3339 /* BaseClass.m */,
+				DC3DA00B1E7D41F800EF3339 /* DataModels.h */,
+				DC3DA00C1E7D41F800EF3339 /* Elements.h */,
+				DC3DA00D1E7D41F800EF3339 /* Elements.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3D9FCF1E7D41E400EF3339 /* getirHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3DA0001E7D41E400EF3339 /* Build configuration list for PBXNativeTarget "getirHackathon" */;
+			buildPhases = (
+				DC3D9FCC1E7D41E400EF3339 /* Sources */,
+				DC3D9FCD1E7D41E400EF3339 /* Frameworks */,
+				DC3D9FCE1E7D41E400EF3339 /* Resources */,
+				DC1F41A21E7FB0A000BD2F21 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getirHackathon;
+			productName = getirHackathon;
+			productReference = DC3D9FD01E7D41E400EF3339 /* getirHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC3D9FEB1E7D41E400EF3339 /* getirHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3DA0031E7D41E400EF3339 /* Build configuration list for PBXNativeTarget "getirHackathonTests" */;
+			buildPhases = (
+				DC3D9FE81E7D41E400EF3339 /* Sources */,
+				DC3D9FE91E7D41E400EF3339 /* Frameworks */,
+				DC3D9FEA1E7D41E400EF3339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3D9FEE1E7D41E400EF3339 /* PBXTargetDependency */,
+			);
+			name = getirHackathonTests;
+			productName = getirHackathonTests;
+			productReference = DC3D9FEC1E7D41E400EF3339 /* getirHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC3D9FF61E7D41E400EF3339 /* getirHackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3DA0061E7D41E400EF3339 /* Build configuration list for PBXNativeTarget "getirHackathonUITests" */;
+			buildPhases = (
+				DC3D9FF31E7D41E400EF3339 /* Sources */,
+				DC3D9FF41E7D41E400EF3339 /* Frameworks */,
+				DC3D9FF51E7D41E400EF3339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3D9FF91E7D41E400EF3339 /* PBXTargetDependency */,
+			);
+			name = getirHackathonUITests;
+			productName = getirHackathonUITests;
+			productReference = DC3D9FF71E7D41E400EF3339 /* getirHackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3D9FC81E7D41E400EF3339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Dogan Altinbas";
+				TargetAttributes = {
+					DC3D9FCF1E7D41E400EF3339 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V6YYHC85FB;
+						ProvisioningStyle = Automatic;
+					};
+					DC3D9FEB1E7D41E400EF3339 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V6YYHC85FB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC3D9FCF1E7D41E400EF3339;
+					};
+					DC3D9FF61E7D41E400EF3339 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V6YYHC85FB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC3D9FCF1E7D41E400EF3339;
+					};
+				};
+			};
+			buildConfigurationList = DC3D9FCB1E7D41E400EF3339 /* Build configuration list for PBXProject "getirHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3D9FC71E7D41E400EF3339;
+			productRefGroup = DC3D9FD11E7D41E400EF3339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3D9FCF1E7D41E400EF3339 /* getirHackathon */,
+				DC3D9FEB1E7D41E400EF3339 /* getirHackathonTests */,
+				DC3D9FF61E7D41E400EF3339 /* getirHackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3D9FCE1E7D41E400EF3339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1F419E1E7FAF2700BD2F21 /* AFNetworking.framework in Resources */,
+				DC3D9FE61E7D41E400EF3339 /* LaunchScreen.storyboard in Resources */,
+				DC3D9FE31E7D41E400EF3339 /* Assets.xcassets in Resources */,
+				DC3D9FDE1E7D41E400EF3339 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D9FEA1E7D41E400EF3339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D9FF51E7D41E400EF3339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3D9FCC1E7D41E400EF3339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A162C1E8069BF005E70B2 /* ShapeViewController.m in Sources */,
+				DC3D9FDB1E7D41E400EF3339 /* ViewController.m in Sources */,
+				DC3D9FD81E7D41E400EF3339 /* AppDelegate.m in Sources */,
+				DC3D9FD51E7D41E400EF3339 /* main.m in Sources */,
+				DC3DA00E1E7D41F800EF3339 /* BaseClass.m in Sources */,
+				DC3DA00F1E7D41F800EF3339 /* Elements.m in Sources */,
+				DC3D9FE11E7D41E400EF3339 /* getirHackathon.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D9FE81E7D41E400EF3339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3D9FF11E7D41E400EF3339 /* getirHackathonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D9FF31E7D41E400EF3339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3D9FFC1E7D41E400EF3339 /* getirHackathonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC3D9FEE1E7D41E400EF3339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3D9FCF1E7D41E400EF3339 /* getirHackathon */;
+			targetProxy = DC3D9FED1E7D41E400EF3339 /* PBXContainerItemProxy */;
+		};
+		DC3D9FF91E7D41E400EF3339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3D9FCF1E7D41E400EF3339 /* getirHackathon */;
+			targetProxy = DC3D9FF81E7D41E400EF3339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC3D9FDC1E7D41E400EF3339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3D9FDD1E7D41E400EF3339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3D9FE41E7D41E400EF3339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3D9FE51E7D41E400EF3339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3D9FFE1E7D41E400EF3339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC3D9FFF1E7D41E400EF3339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3DA0011E7D41E400EF3339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6YYHC85FB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = getirHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dogan.getirHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC3DA0021E7D41E400EF3339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6YYHC85FB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = getirHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dogan.getirHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC3DA0041E7D41E400EF3339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V6YYHC85FB;
+				INFOPLIST_FILE = getirHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dogan.getirHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getirHackathon.app/getirHackathon";
+			};
+			name = Debug;
+		};
+		DC3DA0051E7D41E400EF3339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V6YYHC85FB;
+				INFOPLIST_FILE = getirHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dogan.getirHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getirHackathon.app/getirHackathon";
+			};
+			name = Release;
+		};
+		DC3DA0071E7D41E400EF3339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V6YYHC85FB;
+				INFOPLIST_FILE = getirHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dogan.getirHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = getirHackathon;
+			};
+			name = Debug;
+		};
+		DC3DA0081E7D41E400EF3339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V6YYHC85FB;
+				INFOPLIST_FILE = getirHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dogan.getirHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = getirHackathon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3D9FCB1E7D41E400EF3339 /* Build configuration list for PBXProject "getirHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3D9FFE1E7D41E400EF3339 /* Debug */,
+				DC3D9FFF1E7D41E400EF3339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3DA0001E7D41E400EF3339 /* Build configuration list for PBXNativeTarget "getirHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DA0011E7D41E400EF3339 /* Debug */,
+				DC3DA0021E7D41E400EF3339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3DA0031E7D41E400EF3339 /* Build configuration list for PBXNativeTarget "getirHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DA0041E7D41E400EF3339 /* Debug */,
+				DC3DA0051E7D41E400EF3339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3DA0061E7D41E400EF3339 /* Build configuration list for PBXNativeTarget "getirHackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DA0071E7D41E400EF3339 /* Debug */,
+				DC3DA0081E7D41E400EF3339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC3D9FDF1E7D41E400EF3339 /* getirHackathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC3D9FE01E7D41E400EF3339 /* getirHackathon.xcdatamodel */,
+			);
+			currentVersion = DC3D9FE01E7D41E400EF3339 /* getirHackathon.xcdatamodel */;
+			path = getirHackathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC3D9FC81E7D41E400EF3339 /* Project object */;
+}
